@@ -30,6 +30,7 @@ resource "aws_security_group" "allow_tls" {
   }
 }
 
+
 resource "aws_default_vpc" "default" {
   tags = {
     Name = "Default VPC"
